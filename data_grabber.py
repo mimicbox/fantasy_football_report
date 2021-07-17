@@ -219,6 +219,7 @@ def get_team_roster_with_info_season(team_id):
                                     params={"team_id" : team_id},
                                     new_data_dir=f"{season}/{team_id}_{team_key[team_id]}")
     
+
 #Less info then player_info... useful for just grabbing points scored by team!... will drill into this more!
 def get_team_roster_stats_by_week(team_id,week):
     team_roster_stats_week = yahoo_data.save(f"team_roster_with_stats_week_{week}",
@@ -227,6 +228,11 @@ def get_team_roster_stats_by_week(team_id,week):
                                     new_data_dir=f"{season}/{team_id}_{team_key[team_id]}")
 
 
+for i in range(1,13):
+    for week in range(1,17):
+        get_team_roster_stats_by_week(i,week)
+    
+    
 #Just grab team draft results... will do more with this
 def get_team_draft(team_id):
     team_draft = yahoo_data.save(f"team_draft",

@@ -5,12 +5,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from statistics import mean
 import matplotlib.patches as mpatches
-from data_grabber import *
+# from data_grabber import *
+
 season = "2020"
 all_teams_points = {}
 all_teams_proj = {}
 all_teams_points_week = {}
-current_week = 1
+current_week = 13
 
 positions = {
     "QB" : 1,
@@ -24,7 +25,7 @@ positions = {
 }
 
 #Constants for season 2020 for my piece of mind the number is always team_id and will not change... team name might... 
-##Should automate team_index at some time
+
 team_index = {1: 'Your team Blow molds', 
             2: 'Ertz my Johnson', 
             3: 'Coronaviruses', 
@@ -50,9 +51,6 @@ def get_team_index():
 team_index = get_team_index()
 
 
-def percent_change(start_point, end_point):
-    """Calculate percent change given a starting point and an ending point"""
-    return (float(end_point) - start_point) / abs(start_point) * 100.00
 
 
     
@@ -140,7 +138,7 @@ def percent_change(start_point, end_point):
 # # for i in range(1,13):
 # #     plot_points_vs_proj(i)
 
-#this is useful for the luck function, just a simple dictonary of team_id : score for a given week works outside of team Class
+
 #NOTE ---> Can not figure out way to get points scored in Team class and not break a lot of things.... will revisit this
 def grab_weeks_scores(week):
     """Given a week grab all scores by all teams"""
@@ -160,37 +158,6 @@ def grab_points_scored(team_id, week):
 
 
 
-#Pretty sure not needed cause the team_key is now stored in the team object
-#Grab all teams team_key and put them in dictonary according to team_index
-# team_keys = {i:get_team_key(i) for i in range(1, len(team_index) + 1)}
-
-
-#Return if team won or not could be neater but it works so why change it!
-
-
-
-
-    
-    
-
-
-
-
-    
-    
-    
-#Write function to grab a teams roster with player_name and player_key
-
-
-
-# def grab_team_streak(team_id):
-#     file = open(f"2020/{team_id}_{team_index[team_id]}/team_standings.json")
-#     data = json.load(file)
-    
-#     return data['streak']
-
-
-
     
 class Team:
     
@@ -202,15 +169,16 @@ class Team:
         self.streak = self.grab_team_streak()
         self.points_scored = grab_points_scored(team_id, current_week)
         self.optimal_team = self.team_score_by_position_optimal(current_week)
+        self.optimal_score = round(sum(self.optimal_team.values()), 2)
         self.win = self.did_team_win(current_week)
-        self.coach_metric = self.grab_coach_metric(current_week)
+        self.coach_metric = self.grab_coach_metric()
         self.luck = self.team_luck(current_week)
         self.proj_points = self.grab_points_proj(current_week)
         self.roster = self.grab_team_roster(current_week)
         self.rank = self.grab_team_rank()
         self.vs_team_id = self.grab_vs_team(current_week)  
         self.manager = self.grab_manager_name()
-
+        
     
     
 
@@ -256,10 +224,10 @@ class Team:
 
     def grab_vs_team(self, week):
         """Function to return id and name of teams opponent"""
-        with open(f"2020/{self.team_id}_{team_index[self.team_id]}/team_matchups.json") as file:
+        with open(f"{season}/{self.team_id}_{team_index[self.team_id]}/team_matchups.json") as file:
             data = json.load(file)
             for matchup in data:
-                if matchup['matchup']['week'] == str(week):
+                if matchup['matchup']['week'] == str(week) or matchup['matchup']['week'] == week:
                     return matchup['matchup']['teams'][1]['team']['team_id']
 
 
@@ -303,14 +271,11 @@ class Team:
             return data['team_key']
     
     
-    def grab_coach_metric(self, week):
+    def grab_coach_metric(self):
         """Given team_id and week will calculate coach efficency metric (points score / optimal points)
     Closer to 1 the better"""
     
-        points_scored = self.points_scored
-        optimal_team = self.optimal_team
-        optimal_points = sum(optimal_team.values())
-        return round((points_scored/optimal_points), 2)
+        return round((self.points_scored/self.optimal_score), 2)
     
 
     def grab_points_proj(self, week):
@@ -333,105 +298,105 @@ class Team:
                                  "K" : 0,
                                  "DEF" : 0}"""
     
-        file = open(f"{season}/{self.team_id}_{team_index[self.team_id]}/team_roster_with_stats_week_{week}.json")
-        data = json.load(file)
-        #Create template for optimal team
-        points_scored_by_position = {"QB" : 0,
-                                    "WR1" : 0,
-                                    "WR2" : 0,
-                                    "RB1" : 0,
-                                    "RB2" : 0, 
-                                    "TE" : 0,
-                                    "W/R/T" : 0,
-                                    "K" : 0,
-                                    "DEF" : 0}
-        
-        
-        for player in data:
+        with open(f"{season}/{self.team_id}_{team_index[self.team_id]}/team_roster_with_stats_week_{week}.json") as file:
+            data = json.load(file)
+            #Create template for optimal team
+            points_scored_by_position = {"QB" : 0,
+                                        "WR1" : 0,
+                                        "WR2" : 0,
+                                        "RB1" : 0,
+                                        "RB2" : 0, 
+                                        "TE" : 0,
+                                        "W/R/T" : 0,
+                                        "K" : 0,
+                                        "DEF" : 0}
             
             
-            #Makes sure to grab position name in case there is mutliple positions it can play as, uses just first returned
-            try:
-                positions = player['player']['eligible_positions']['position']
-            except:
-                positions = player['player']['eligible_positions'][0]['position']
-            
-            
-            points = player['player']['player_points']['total']
-            
-            
-            #Follows is a giant if/else block to create the optimal team linked to their points
-            if positions == "QB":
-                if points > points_scored_by_position["QB"]:
-                    points_scored_by_position["QB"] = points
-                    
-            #----------START WR BLOCK-------#
-            if positions == "WR":
+            for player in data:
                 
-                if points > points_scored_by_position["WR1"]:
-                    #Moves player down positions to maintain optimal team
-                    if points_scored_by_position["WR2"] > points_scored_by_position["W/R/T"]:
-                        points_scored_by_position["W/R/T"] = points_scored_by_position["WR2"]
-                    points_scored_by_position["WR2"] = points_scored_by_position["WR1"]
-                    points_scored_by_position["WR1"] = points
-                    
-                elif points > points_scored_by_position["WR2"]:
                 
-                    if points_scored_by_position["WR2"] > points_scored_by_position["W/R/T"]:
-                        points_scored_by_position["W/R/T"] = points_scored_by_position["WR2"]
-                    points_scored_by_position["WR2"] = points
-                    
-                elif points > points_scored_by_position["W/R/T"]:
-                    
-                    points_scored_by_position["W/R/T"] = points
+                #Makes sure to grab position name in case there is mutliple positions it can play as, uses just first returned
+                try:
+                    positions = player['player']['eligible_positions']['position']
+                except:
+                    positions = player['player']['eligible_positions'][0]['position']
                 
-            #---------START RB BLOCK-----------#    
-            if positions == "RB":
                 
-                if points > points_scored_by_position["RB1"]:
-                    
-                    if points_scored_by_position["RB2"] > points_scored_by_position["W/R/T"]:
-                        points_scored_by_position["W/R/T"] = points_scored_by_position["RB2"]
-                    points_scored_by_position["RB2"] = points_scored_by_position["RB1"]
-                    points_scored_by_position["RB1"] = points
-                    
-                elif points > points_scored_by_position["RB2"]:
-                    
-                    if points_scored_by_position["RB2"] > points_scored_by_position["W/R/T"]:
-                        points_scored_by_position["W/R/T"] = points_scored_by_position["RB2"]
-                    points_scored_by_position["RB2"] = points
-                    
-                elif points > points_scored_by_position["W/R/T"]:
-                    
-                    points_scored_by_position["W/R/T"] = points
-            
-            
-            #---------- START TE BLOCK-------#
-            if positions == "TE":
-                if points > points_scored_by_position["TE"]:
-                    if points_scored_by_position["TE"] > points_scored_by_position["W/R/T"]:
-                        points_scored_by_position["W/R/T"] = points_scored_by_position["TE"]
-                    
-                    points_scored_by_position["TE"] = points
+                points = player['player']['player_points']['total']
                 
-                elif points > points_scored_by_position["W/R/T"]:
-                    points_scored_by_position["W/R/T"] = points
-                                                    
-            
-            #---------START k/DEF BLOCK-------#
-            if positions == "K":
-                if points > points_scored_by_position["K"]:
-                    points_scored_by_position["K"] = points
-            
-            if positions == "DEF":
-                if points > points_scored_by_position["DEF"]:
-                    points_scored_by_position["DEF"] = points
-            
-            # print(positions)
-            # print(points)                                         
-            # print(points_scored_by_position)   #------DEBUG
-            
-            
+                
+                #Follows is a giant if/else block to create the optimal team linked to their points
+                if positions == "QB":
+                    if points > points_scored_by_position["QB"]:
+                        points_scored_by_position["QB"] = points
+                        
+                #----------START WR BLOCK-------#
+                if positions == "WR":
+                    
+                    if points > points_scored_by_position["WR1"]:
+                        #Moves player down positions to maintain optimal team
+                        if points_scored_by_position["WR2"] > points_scored_by_position["W/R/T"]:
+                            points_scored_by_position["W/R/T"] = points_scored_by_position["WR2"]
+                        points_scored_by_position["WR2"] = points_scored_by_position["WR1"]
+                        points_scored_by_position["WR1"] = points
+                        
+                    elif points > points_scored_by_position["WR2"]:
+                    
+                        if points_scored_by_position["WR2"] > points_scored_by_position["W/R/T"]:
+                            points_scored_by_position["W/R/T"] = points_scored_by_position["WR2"]
+                        points_scored_by_position["WR2"] = points
+                        
+                    elif points > points_scored_by_position["W/R/T"]:
+                        
+                        points_scored_by_position["W/R/T"] = points
+                    
+                #---------START RB BLOCK-----------#    
+                if positions == "RB":
+                    
+                    if points > points_scored_by_position["RB1"]:
+                        
+                        if points_scored_by_position["RB2"] > points_scored_by_position["W/R/T"]:
+                            points_scored_by_position["W/R/T"] = points_scored_by_position["RB2"]
+                        points_scored_by_position["RB2"] = points_scored_by_position["RB1"]
+                        points_scored_by_position["RB1"] = points
+                        
+                    elif points > points_scored_by_position["RB2"]:
+                        
+                        if points_scored_by_position["RB2"] > points_scored_by_position["W/R/T"]:
+                            points_scored_by_position["W/R/T"] = points_scored_by_position["RB2"]
+                        points_scored_by_position["RB2"] = points
+                        
+                    elif points > points_scored_by_position["W/R/T"]:
+                        
+                        points_scored_by_position["W/R/T"] = points
+                
+                
+                #---------- START TE BLOCK-------#
+                if positions == "TE":
+                    if points > points_scored_by_position["TE"]:
+                        if points_scored_by_position["TE"] > points_scored_by_position["W/R/T"]:
+                            points_scored_by_position["W/R/T"] = points_scored_by_position["TE"]
+                        
+                        points_scored_by_position["TE"] = points
+                    
+                    elif points > points_scored_by_position["W/R/T"]:
+                        points_scored_by_position["W/R/T"] = points
+                                                        
+                
+                #---------START k/DEF BLOCK-------#
+                if positions == "K":
+                    if points > points_scored_by_position["K"]:
+                        points_scored_by_position["K"] = points
+                
+                if positions == "DEF":
+                    if points > points_scored_by_position["DEF"]:
+                        points_scored_by_position["DEF"] = points
+                
+                # print(positions)
+                # print(points)                                         
+                # print(points_scored_by_position)   #------DEBUG
+                
+                
         return points_scored_by_position
 
     def did_team_win(self, week):
@@ -449,7 +414,7 @@ class Team:
                 return False
 
 
-
+#Creating all the team objects for the current week
 team_list = { i : Team(i) for i in range(1,13)}
 
 # for i in range(1,13):
@@ -499,21 +464,22 @@ for i in range(1,13):
 
 #Debugging uses... will list out each team and info about them for cross reference and checking
 for i in range(1,13):
-    print(f"{team_list[i].team_name} | "
-            f"Manager: {team_list[i].manager} | "
-            f"Points: {team_list[i].points_scored} | "
-            f"Rank: {team_list[i].rank} | "
-            f"Luck: {team_list[i].luck} | "
-            f"Coaching: {team_list[i].coach_metric} | "
-            f"W/L: {team_list[i].win} | "
-            f"Proj Points: {team_list[i].proj_points} | "
-            f"Power Rank: {team_list[i].power_rank} | "
-            f"Streak: {team_list[i].streak} | "
-            f"Opponent: {team_index[int(team_list[i].vs_team_id)]} | "
-            f"Roster: {team_list[i].roster} | "
-            f"Optimal Team: {team_list[i].optimal_team}"
-            "\n-----------------------------------------------------------------------------------------------------")
-            
+        print(f"{team_list[i].team_name} | "
+                f"Manager: {team_list[i].manager} | "
+                f"Points: {team_list[i].points_scored} | "
+                f"Rank: {team_list[i].rank} | "
+                f"Luck: {team_list[i].luck} | "
+                f"Coaching: {team_list[i].coach_metric} | "
+                f"W/L: {team_list[i].win} | "
+                f"Proj Points: {team_list[i].proj_points} | "
+                f"Power Rank: {team_list[i].power_rank} | "
+                f"Streak: {team_list[i].streak} | "
+                f"Opponent: {team_index[int(team_list[i].vs_team_id)]} | "
+                f"Roster: {team_list[i].roster} | "
+                f"Optimal Team: {team_list[i].optimal_team} | "
+                f"Optimal Score: {team_list[i].optimal_score} | "
+                "\n-----------------------------------------------------------------------------------------------------")
+                
             
     
     
