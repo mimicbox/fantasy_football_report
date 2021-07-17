@@ -1,0 +1,2783 @@
+{
+  "clinched_playoffs": 1,
+  "draft_grade": "B",
+  "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+  "draft_results": [
+    {
+      "draft_result": {
+        "pick": 1,
+        "round": 1,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.30121"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 24,
+        "round": 2,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.27535"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 25,
+        "round": 3,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.24815"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 48,
+        "round": 4,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.31031"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 49,
+        "round": 5,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.32722"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 72,
+        "round": 6,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.29344"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 73,
+        "round": 7,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.29255"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 96,
+        "round": 8,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.24017"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 97,
+        "round": 9,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.100023"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 120,
+        "round": 10,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.31002"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 121,
+        "round": 11,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.29236"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 144,
+        "round": 12,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.8826"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 145,
+        "round": 13,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.31972"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 168,
+        "round": 14,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.32695"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 169,
+        "round": 15,
+        "team_key": "399.l.745501.t.1",
+        "player_key": "399.p.30266"
+      }
+    }
+  ],
+  "has_draft_grade": 1,
+  "league_scoring_type": "head",
+  "managers": {
+    "manager": {
+      "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+      "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+      "manager_id": "1",
+      "nickname": "Jevin M"
+    }
+  },
+  "matchups": [
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B+",
+              "team_key": "399.l.745501.t.2"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds knock off Ertz my Johnson in 108.60-105.06 battle",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=1&mid1=1&mid2=2",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "108.70",
+                "week": "1"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "120.42",
+                "week": "1"
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 1
+            }
+          },
+          {
+            "team": {
+              "draft_grade": "C",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/2/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "U4KPEOX476EJDOBFHE23C7Y3YU",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "2",
+                  "nickname": "michael"
+                }
+              },
+              "name": "Ertz my Johnson",
+              "number_of_moves": "15",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "2",
+              "team_key": "399.l.745501.t.2",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "105.06",
+                "week": "1"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "110.79",
+                "week": "1"
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/2",
+              "waiver_priority": 1,
+              "win_probability": 0
+            }
+          }
+        ],
+        "week": "1",
+        "week_end": "2020-09-14",
+        "week_start": "2020-09-10",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "A",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B+",
+              "team_key": "399.l.745501.t.3"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds defy projections, defeat Coronaviruses, 134.26-114.80",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=2&mid1=1&mid2=3",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "134.26",
+                "week": 2
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "121.79",
+                "week": 2
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 1
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "C+",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/3/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "FNJSMGGF3HEHAYDR7OVUWSCKUU",
+                  "image_url": "https://s.yimg.com/ag/images/4633/24425359477_ca0327_64sq.jpg",
+                  "manager_id": "3",
+                  "nickname": "Brian G"
+                }
+              },
+              "name": "Coronaviruses",
+              "number_of_moves": "17",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "3",
+              "team_key": "399.l.745501.t.3",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_11.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "114.80",
+                "week": 2
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "108.97",
+                "week": 2
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/3",
+              "waiver_priority": 10,
+              "win_probability": 0
+            }
+          }
+        ],
+        "week": 2,
+        "week_end": "2020-09-21",
+        "week_start": "2020-09-15",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B+",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "C",
+              "team_key": "399.l.745501.t.4"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds beat Buffalow expectation to remain unbeaten, 107.68-96.84",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=3&mid1=1&mid2=4",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "107.68",
+                "week": 3
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "108.91",
+                "week": 3
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 1
+            }
+          },
+          {
+            "team": {
+              "draft_grade": "C",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/4/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BNZD55DFJSJBIJ6IG42TT4P4EU",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "4",
+                  "nickname": "jayme"
+                }
+              },
+              "name": "Buffalow expectation",
+              "number_of_moves": "33",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "4",
+              "team_key": "399.l.745501.t.4",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56483990291_b93154.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "96.84",
+                "week": 3
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "118.68",
+                "week": 3
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/4",
+              "waiver_priority": 12,
+              "win_probability": 0
+            }
+          }
+        ],
+        "week": 3,
+        "week_end": "2020-09-28",
+        "week_start": "2020-09-22",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "A",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "399.l.745501.t.5"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds jump into 1st place, 123.92-101.02",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=4&mid1=1&mid2=5",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "123.82",
+                "week": 4
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "110.71",
+                "week": 4
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 1
+            }
+          },
+          {
+            "team": {
+              "draft_grade": "C",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/5/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "ODIBG3EME5NWWOGFGO4ZULXU64",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "5",
+                  "nickname": "mike demchak"
+                }
+              },
+              "name": "Chico's bail bonds",
+              "number_of_moves": "17",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "5",
+              "team_key": "399.l.745501.t.5",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_12.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "101.02",
+                "week": 4
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "107.74",
+                "week": 4
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/5",
+              "waiver_priority": 2,
+              "win_probability": 0
+            }
+          }
+        ],
+        "week": 4,
+        "week_end": "2020-10-05",
+        "week_start": "2020-09-29",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "D-",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "A",
+              "team_key": "399.l.745501.t.6"
+            }
+          }
+        ],
+        "matchup_recap_title": "Sail the open Kelces knock off Your team Blow molds in 119.4-68.4 rout",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=5&mid1=1&mid2=6",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "68.40",
+                "week": 5
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "108.70",
+                "week": 5
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0.01
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "C+",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/6/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "7ZPNJDBOLFZS3X46WEUI46RYLI",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "6",
+                  "nickname": "trenton"
+                }
+              },
+              "name": "Sail the open Kelces",
+              "number_of_moves": "15",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "6",
+              "team_key": "399.l.745501.t.6",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/d1252cdf1cb044a599b0a5e9e13b5e6f648ebbe1a694535b95dee94e1e54a089.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "119.40",
+                "week": 5
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "104.02",
+                "week": 5
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/6",
+              "waiver_priority": 6,
+              "win_probability": 0.99
+            }
+          }
+        ],
+        "week": 5,
+        "week_end": "2020-10-13",
+        "week_start": "2020-10-06",
+        "winner_team_key": "399.l.745501.t.6"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "A-",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "C+",
+              "team_key": "399.l.745501.t.7"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds climb into top spot, 117.14-101.90",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=6&mid1=1&mid2=7",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "117.14",
+                "week": 6
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "106.37",
+                "week": 6
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0.99
+            }
+          },
+          {
+            "team": {
+              "draft_grade": "A",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/7/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BPCXR2TODMDBZNMIC65P5UD4WM",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "7",
+                  "nickname": "Greg"
+                }
+              },
+              "name": "Pour one for Mahomes",
+              "number_of_moves": "18",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "7",
+              "team_key": "399.l.745501.t.7",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25978879569_22f9af.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "101.90",
+                "week": 6
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "117.10",
+                "week": 6
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/7",
+              "waiver_priority": 4,
+              "win_probability": 0.010000000000000009
+            }
+          }
+        ],
+        "week": 6,
+        "week_end": "2020-10-19",
+        "week_start": "2020-10-14",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "A+",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "A",
+              "team_key": "399.l.745501.t.8"
+            }
+          }
+        ],
+        "matchup_recap_title": "Mayfield of Dreams defeat Your team Blow molds for third straight win, 125.32-116.96",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=7&mid1=1&mid2=8",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "116.96",
+                "week": 7
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "94.17",
+                "week": 7
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0.09999999999999998
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "C",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/8/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "O73NZ6AK5MI6YGX4LDB7MJ6OAE",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "8",
+                  "nickname": "Matthew"
+                }
+              },
+              "name": "Mayfield of Dreams",
+              "number_of_moves": "23",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "8",
+              "team_key": "399.l.745501.t.8",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/29943853008_8b5b73.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "125.32",
+                "week": 7
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "113.22",
+                "week": 7
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/8",
+              "waiver_priority": 7,
+              "win_probability": 0.9
+            }
+          }
+        ],
+        "week": 7,
+        "week_end": "2020-10-26",
+        "week_start": "2020-10-20",
+        "winner_team_key": "399.l.745501.t.8"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B-",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B-",
+              "team_key": "399.l.745501.t.9"
+            }
+          }
+        ],
+        "matchup_recap_title": "Despite top scorer the Eagles defense, S’a Good Bois fall to Your team Blow molds in 99.42-75.62 rout",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=8&mid1=1&mid2=9",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "99.42",
+                "week": 8
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "108.97",
+                "week": 8
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0.99
+            }
+          },
+          {
+            "team": {
+              "draft_grade": "B+",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/9/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "OSFCXRVUPXQ5OUBPZYS7ESPLCE",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "9",
+                  "nickname": "Barton"
+                }
+              },
+              "name": "S’a Good Bois",
+              "number_of_moves": "29",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "9",
+              "team_key": "399.l.745501.t.9",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_b.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "75.62",
+                "week": 8
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "80.29",
+                "week": 8
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/9",
+              "waiver_priority": 3,
+              "win_probability": 0.010000000000000009
+            }
+          }
+        ],
+        "week": 8,
+        "week_end": "2020-11-02",
+        "week_start": "2020-10-27",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "C",
+              "team_key": "399.l.745501.t.10"
+            }
+          }
+        ],
+        "matchup_recap_title": "The two time lose to Your team Blow molds in 115.6-90.5 rout",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=9&mid1=1&mid2=10",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "115.60",
+                "week": 9
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "118.28",
+                "week": 9
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 1
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B-",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/10/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "6E4JN5N35RZ355GBDXIGPNLSBI",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "10",
+                  "nickname": "Christopher"
+                }
+              },
+              "name": "The two time",
+              "number_of_moves": "19",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "10",
+              "team_key": "399.l.745501.t.10",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/37250381793_12ab03.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "90.50",
+                "week": 9
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "107.47",
+                "week": 9
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/10",
+              "waiver_priority": 8,
+              "win_probability": 0
+            }
+          }
+        ],
+        "week": 9,
+        "week_end": "2020-11-09",
+        "week_start": "2020-11-03",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "399.l.745501.t.11"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds come back to top Daddys Angels for third straight win in 105.76-100.94 battle",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=10&mid1=1&mid2=11",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "105.76",
+                "week": 10
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "109.58",
+                "week": 10
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0.42999999999999994
+            }
+          },
+          {
+            "team": {
+              "draft_grade": "C-",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/11/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "11",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Daddys Angels",
+              "number_of_moves": "18",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "11",
+              "team_key": "399.l.745501.t.11",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/55716763514_58fb40.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "100.94",
+                "week": 10
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "100.73",
+                "week": 10
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/11",
+              "waiver_priority": 5,
+              "win_probability": 0.5700000000000001
+            }
+          }
+        ],
+        "week": 10,
+        "week_end": "2020-11-16",
+        "week_start": "2020-11-10",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B+",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "A+",
+              "team_key": "399.l.745501.t.12"
+            }
+          }
+        ],
+        "matchup_recap_title": "Forever Koi top Your team Blow molds for third straight win in 136.74-115.14 rout",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=11&mid1=1&mid2=12",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "115.14",
+                "week": 11
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "116.10",
+                "week": 11
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B-",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/12/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "JARJTKXDEBM2XCV27WIZXJHQ6I",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "12",
+                  "nickname": "Timothy Tapocsi"
+                }
+              },
+              "name": "Forever Koi",
+              "number_of_moves": "28",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "12",
+              "team_key": "399.l.745501.t.12",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25928326209_1d4d62.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "136.74",
+                "week": 11
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "108.77",
+                "week": 11
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/12",
+              "waiver_priority": 9,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": 11,
+        "week_end": "2020-11-23",
+        "week_start": "2020-11-17",
+        "winner_team_key": "399.l.745501.t.12"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "A-",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "A-",
+              "team_key": "399.l.745501.t.2"
+            }
+          }
+        ],
+        "matchup_recap_title": "Ertz my Johnson beat expectations, come back to knock off Your team Blow molds in 124.14-122.80 battle",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=12&mid1=1&mid2=2",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "122.80",
+                "week": 12
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "99.09",
+                "week": 12
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "draft_grade": "C",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/2/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "U4KPEOX476EJDOBFHE23C7Y3YU",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "2",
+                  "nickname": "michael"
+                }
+              },
+              "name": "Ertz my Johnson",
+              "number_of_moves": "15",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "2",
+              "team_key": "399.l.745501.t.2",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "124.14",
+                "week": 12
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "106.69",
+                "week": 12
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/2",
+              "waiver_priority": 1,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": 12,
+        "week_end": "2020-12-02",
+        "week_start": "2020-11-24",
+        "winner_team_key": "399.l.745501.t.2"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B+",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "C-",
+              "team_key": "399.l.745501.t.3"
+            }
+          }
+        ],
+        "matchup_recap_title": "Coronaviruses fall short of expectations, succumb to Your team Blow molds, 107.18-95.74",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=13&mid1=1&mid2=3",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "107.18",
+                "week": 13
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "100.72",
+                "week": 13
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 1
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "C+",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/3/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "FNJSMGGF3HEHAYDR7OVUWSCKUU",
+                  "image_url": "https://s.yimg.com/ag/images/4633/24425359477_ca0327_64sq.jpg",
+                  "manager_id": "3",
+                  "nickname": "Brian G"
+                }
+              },
+              "name": "Coronaviruses",
+              "number_of_moves": "17",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "3",
+              "team_key": "399.l.745501.t.3",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_11.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "95.74",
+                "week": 13
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "110.80",
+                "week": 13
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/3",
+              "waiver_priority": 10,
+              "win_probability": 0
+            }
+          }
+        ],
+        "week": 13,
+        "week_end": "2020-12-08",
+        "week_start": "2020-12-03",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "1",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "C",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "C",
+              "team_key": "399.l.745501.t.3"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds fall short of expectations, come back to knock off Coronaviruses in 95.02-92.46 battle",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=14&mid1=1&mid2=3",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "95.02",
+                "week": 14
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "109.33",
+                "week": 14
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 1
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "C+",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/3/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "FNJSMGGF3HEHAYDR7OVUWSCKUU",
+                  "image_url": "https://s.yimg.com/ag/images/4633/24425359477_ca0327_64sq.jpg",
+                  "manager_id": "3",
+                  "nickname": "Brian G"
+                }
+              },
+              "name": "Coronaviruses",
+              "number_of_moves": "17",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "3",
+              "team_key": "399.l.745501.t.3",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_11.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "92.46",
+                "week": 14
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "108.09",
+                "week": 14
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/3",
+              "waiver_priority": 10,
+              "win_probability": 0
+            }
+          }
+        ],
+        "week": 14,
+        "week_end": "2020-12-14",
+        "week_start": "2020-12-09",
+        "winner_team_key": "399.l.745501.t.1"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "1",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "C+",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "A+",
+              "team_key": "399.l.745501.t.6"
+            }
+          }
+        ],
+        "matchup_recap_title": "Sail the open Kelces knock off Your team Blow molds in 162.24-103.22 rout",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=15&mid1=1&mid2=6",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "103.22",
+                "week": 15
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "107.66",
+                "week": 15
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "C+",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/6/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "7ZPNJDBOLFZS3X46WEUI46RYLI",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "6",
+                  "nickname": "trenton"
+                }
+              },
+              "name": "Sail the open Kelces",
+              "number_of_moves": "15",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "6",
+              "team_key": "399.l.745501.t.6",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/d1252cdf1cb044a599b0a5e9e13b5e6f648ebbe1a694535b95dee94e1e54a089.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "162.24",
+                "week": 15
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "129.20",
+                "week": 15
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/6",
+              "waiver_priority": 6,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": 15,
+        "week_end": "2020-12-21",
+        "week_start": "2020-12-15",
+        "winner_team_key": "399.l.745501.t.6"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "1",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "399.l.745501.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "399.l.745501.t.10"
+            }
+          }
+        ],
+        "matchup_recap_title": "Your team Blow molds outperform predictions but lose to The two time, 125.50-110.02",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/recap?week=16&mid1=1&mid2=10",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BYTLRDA77GX526UZWD4A6Y3YP4",
+                  "image_url": "https://s.yimg.com/ag/images/4735/27372589349_22a0bf_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "Jevin M"
+                }
+              },
+              "name": "Your team Blow molds",
+              "number_of_moves": "39",
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "399.l.745501.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "110.02",
+                "week": 16
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "98.70",
+                "week": 16
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+              "waiver_priority": 11,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "draft_grade": "B-",
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/745501/10/draftrecap",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "6E4JN5N35RZ355GBDXIGPNLSBI",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "10",
+                  "nickname": "Christopher"
+                }
+              },
+              "name": "The two time",
+              "number_of_moves": "19",
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": "17",
+                "value": "0"
+              },
+              "team_id": "10",
+              "team_key": "399.l.745501.t.10",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/37250381793_12ab03.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "125.50",
+                "week": 16
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "117.60",
+                "week": 16
+              },
+              "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/10",
+              "waiver_priority": 8,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": 16,
+        "week_end": "2020-12-28",
+        "week_start": "2020-12-22",
+        "winner_team_key": "399.l.745501.t.10"
+      }
+    }
+  ],
+  "name": "Your team Blow molds",
+  "number_of_moves": "39",
+  "number_of_trades": "1",
+  "roster": {
+    "coverage_type": "week",
+    "week": "16",
+    "is_editable": 0,
+    "players": [
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "7"
+          },
+          "display_position": "QB",
+          "editorial_player_key": "nfl.p.31002",
+          "editorial_team_abbr": "Bal",
+          "editorial_team_full_name": "Baltimore Ravens",
+          "editorial_team_key": "nfl.t.33",
+          "eligible_positions": {
+            "position": "QB"
+          },
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/xcJiqtnTmvy0kGlJ0is3JQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/31002.1.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Lamar",
+            "ascii_last": "Jackson",
+            "first": "Lamar",
+            "full": "Lamar Jackson",
+            "last": "Jackson"
+          },
+          "player_id": "31002",
+          "player_key": "399.p.31002",
+          "position_type": "O",
+          "primary_position": "QB",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "QB",
+            "week": "16"
+          },
+          "uniform_number": "8"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "10"
+          },
+          "display_position": "WR",
+          "editorial_player_key": "nfl.p.30118",
+          "editorial_team_abbr": "NYJ",
+          "editorial_team_full_name": "New York Jets",
+          "editorial_team_key": "nfl.t.20",
+          "eligible_positions": [
+            {
+              "position": "WR"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/Ml13k4nblcrlNbdYVd83xg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/30118.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Corey",
+            "ascii_last": "Davis",
+            "first": "Corey",
+            "full": "Corey Davis",
+            "last": "Davis"
+          },
+          "player_id": "30118",
+          "player_key": "399.p.30118",
+          "position_type": "O",
+          "primary_position": "WR",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "WR",
+            "week": "16"
+          },
+          "uniform_number": "84"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "7"
+          },
+          "display_position": "WR",
+          "editorial_player_key": "nfl.p.25802",
+          "editorial_team_abbr": "Ind",
+          "editorial_team_full_name": "Indianapolis Colts",
+          "editorial_team_key": "nfl.t.11",
+          "eligible_positions": [
+            {
+              "position": "WR"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/O1D_PKn_50IMD_bBNgRIQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/25802.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "T.Y.",
+            "ascii_last": "Hilton",
+            "first": "T.Y.",
+            "full": "T.Y. Hilton",
+            "last": "Hilton"
+          },
+          "player_id": "25802",
+          "player_key": "399.p.25802",
+          "position_type": "O",
+          "primary_position": "WR",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "WR",
+            "week": "16"
+          },
+          "uniform_number": "13"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "11"
+          },
+          "display_position": "RB",
+          "editorial_player_key": "nfl.p.31906",
+          "editorial_team_abbr": "Buf",
+          "editorial_team_full_name": "Buffalo Bills",
+          "editorial_team_key": "nfl.t.2",
+          "eligible_positions": [
+            {
+              "position": "RB"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/kfRDRT7ZS4ono0SgBbxKAA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/31906.1.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Devin",
+            "ascii_last": "Singletary",
+            "first": "Devin",
+            "full": "Devin Singletary",
+            "last": "Singletary"
+          },
+          "player_id": "31906",
+          "player_key": "399.p.31906",
+          "position_type": "O",
+          "primary_position": "RB",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "RB",
+            "week": "16"
+          },
+          "uniform_number": "26"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "8"
+          },
+          "display_position": "RB",
+          "editorial_player_key": "nfl.p.30860",
+          "editorial_team_abbr": "Jax",
+          "editorial_team_full_name": "Jacksonville Jaguars",
+          "editorial_team_key": "nfl.t.30",
+          "eligible_positions": [
+            {
+              "position": "RB"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/eCdxoWZeLn9X.gtgrrsRKA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/11172020/30860.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Dare",
+            "ascii_last": "Ogunbowale",
+            "first": "Dare",
+            "full": "Dare Ogunbowale",
+            "last": "Ogunbowale"
+          },
+          "player_id": "30860",
+          "player_key": "399.p.30860",
+          "position_type": "O",
+          "primary_position": "RB",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "RB",
+            "week": "16"
+          },
+          "uniform_number": "33"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "7"
+          },
+          "display_position": "TE",
+          "editorial_player_key": "nfl.p.31056",
+          "editorial_team_abbr": "Bal",
+          "editorial_team_full_name": "Baltimore Ravens",
+          "editorial_team_key": "nfl.t.33",
+          "eligible_positions": [
+            {
+              "position": "TE"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/PapE_s61fJ9FyiWuWwDRhg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/31056.1.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Mark",
+            "ascii_last": "Andrews",
+            "first": "Mark",
+            "full": "Mark Andrews",
+            "last": "Andrews"
+          },
+          "player_id": "31056",
+          "player_key": "399.p.31056",
+          "position_type": "O",
+          "primary_position": "TE",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "TE",
+            "week": "16"
+          },
+          "uniform_number": "89"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "13"
+          },
+          "display_position": "WR",
+          "editorial_player_key": "nfl.p.27535",
+          "editorial_team_abbr": "TB",
+          "editorial_team_full_name": "Tampa Bay Buccaneers",
+          "editorial_team_key": "nfl.t.27",
+          "eligible_positions": [
+            {
+              "position": "WR"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/ZNoZIvg98gZxhat5XmBaBg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/27535.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Mike",
+            "ascii_last": "Evans",
+            "first": "Mike",
+            "full": "Mike Evans",
+            "last": "Evans"
+          },
+          "player_id": "27535",
+          "player_key": "399.p.27535",
+          "position_type": "O",
+          "primary_position": "WR",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 1,
+            "position": "W/R/T",
+            "week": "16"
+          },
+          "uniform_number": "13"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "13"
+          },
+          "display_position": "WR",
+          "editorial_player_key": "nfl.p.29785",
+          "editorial_team_abbr": "Car",
+          "editorial_team_full_name": "Carolina Panthers",
+          "editorial_team_key": "nfl.t.29",
+          "eligible_positions": [
+            {
+              "position": "WR"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/xnP7R4XVIk8VJKbc4rQ9PQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/29785.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Robby",
+            "ascii_last": "Anderson",
+            "first": "Robby",
+            "full": "Robby Anderson",
+            "last": "Anderson"
+          },
+          "player_id": "29785",
+          "player_key": "399.p.29785",
+          "position_type": "O",
+          "primary_position": "WR",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "BN",
+            "week": "16"
+          },
+          "uniform_number": "11"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "7"
+          },
+          "display_position": "WR,RB",
+          "editorial_player_key": "nfl.p.32750",
+          "editorial_team_abbr": "Mia",
+          "editorial_team_full_name": "Miami Dolphins",
+          "editorial_team_key": "nfl.t.15",
+          "eligible_positions": [
+            {
+              "position": "WR"
+            },
+            {
+              "position": "RB"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/f8kQRky.Gtfs5DnC2bRWIg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/11242020/32750.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Lynn",
+            "ascii_last": "Bowden Jr.",
+            "first": "Lynn",
+            "full": "Lynn Bowden Jr.",
+            "last": "Bowden Jr."
+          },
+          "player_id": "32750",
+          "player_key": "399.p.32750",
+          "position_type": "O",
+          "primary_position": "WR",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "BN",
+            "week": "16"
+          },
+          "uniform_number": "6"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "8"
+          },
+          "display_position": "RB",
+          "editorial_player_key": "nfl.p.33138",
+          "editorial_team_abbr": "Jax",
+          "editorial_team_full_name": "Jacksonville Jaguars",
+          "editorial_team_key": "nfl.t.30",
+          "eligible_positions": [
+            {
+              "position": "RB"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "has_player_notes": 1,
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/DKAk05XpKQxvdv3nMDJPtw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/33138.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "James",
+            "ascii_last": "Robinson",
+            "first": "James",
+            "full": "James Robinson",
+            "last": "Robinson"
+          },
+          "player_id": "33138",
+          "player_key": "399.p.33138",
+          "player_notes_last_timestamp": 1625229218,
+          "position_type": "O",
+          "primary_position": "RB",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "BN",
+            "week": "16"
+          },
+          "uniform_number": "30"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "13"
+          },
+          "display_position": "RB",
+          "editorial_player_key": "nfl.p.30121",
+          "editorial_team_abbr": "Car",
+          "editorial_team_full_name": "Carolina Panthers",
+          "editorial_team_key": "nfl.t.29",
+          "eligible_positions": [
+            {
+              "position": "RB"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/3fP3IeYaO1UdCDdElT.RhQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/30121.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Christian",
+            "ascii_last": "McCaffrey",
+            "first": "Christian",
+            "full": "Christian McCaffrey",
+            "last": "McCaffrey"
+          },
+          "player_id": "30121",
+          "player_key": "399.p.30121",
+          "position_type": "O",
+          "primary_position": "RB",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "BN",
+            "week": "16"
+          },
+          "status": "Q",
+          "uniform_number": "22"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "5"
+          },
+          "display_position": "RB",
+          "editorial_player_key": "nfl.p.30247",
+          "editorial_team_abbr": "Det",
+          "editorial_team_full_name": "Detroit Lions",
+          "editorial_team_key": "nfl.t.8",
+          "eligible_positions": [
+            {
+              "position": "RB"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/ohOcegipbnXlz77Uo.I6gg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/30247.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Jamaal",
+            "ascii_last": "Williams",
+            "first": "Jamaal",
+            "full": "Jamaal Williams",
+            "last": "Williams"
+          },
+          "player_id": "30247",
+          "player_key": "399.p.30247",
+          "position_type": "O",
+          "primary_position": "RB",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "BN",
+            "week": "16"
+          },
+          "uniform_number": "30"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "7"
+          },
+          "display_position": "WR",
+          "editorial_player_key": "nfl.p.29255",
+          "editorial_team_abbr": "Mia",
+          "editorial_team_full_name": "Miami Dolphins",
+          "editorial_team_key": "nfl.t.15",
+          "eligible_positions": [
+            {
+              "position": "WR"
+            },
+            {
+              "position": "W/R/T"
+            }
+          ],
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/3kSi4mP_CQiijOIrjQ3WOw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/29255.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Will",
+            "ascii_last": "Fuller V",
+            "first": "Will",
+            "full": "Will Fuller V",
+            "last": "Fuller V"
+          },
+          "player_id": "29255",
+          "player_key": "399.p.29255",
+          "position_type": "O",
+          "primary_position": "WR",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "BN",
+            "week": "16"
+          },
+          "status": "SUSP",
+          "uniform_number": "3"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "11"
+          },
+          "display_position": "K",
+          "editorial_player_key": "nfl.p.32858",
+          "editorial_team_abbr": "Buf",
+          "editorial_team_full_name": "Buffalo Bills",
+          "editorial_team_key": "nfl.t.2",
+          "eligible_positions": {
+            "position": "K"
+          },
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/PRse3Qq1VNdieW23nlaRCg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/32858.1.png"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Tyler",
+            "ascii_last": "Bass",
+            "first": "Tyler",
+            "full": "Tyler Bass",
+            "last": "Bass"
+          },
+          "player_id": "32858",
+          "player_key": "399.p.32858",
+          "position_type": "K",
+          "primary_position": "K",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "K",
+            "week": "16"
+          },
+          "uniform_number": "2"
+        }
+      },
+      {
+        "player": {
+          "bye_weeks": {
+            "week": "4"
+          },
+          "display_position": "DEF",
+          "editorial_player_key": "nfl.p.100023",
+          "editorial_team_abbr": "Pit",
+          "editorial_team_full_name": "Pittsburgh Steelers",
+          "editorial_team_key": "nfl.t.23",
+          "eligible_positions": {
+            "position": "DEF"
+          },
+          "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/lq/i/us/sp/v/nfl/teams/1/50x50w/pit.gif"
+          },
+          "is_undroppable": "0",
+          "name": {
+            "ascii_first": "Pittsburgh",
+            "ascii_last": null,
+            "first": "Pittsburgh",
+            "full": "Pittsburgh",
+            "last": null
+          },
+          "player_id": "100023",
+          "player_key": "399.p.100023",
+          "position_type": "DT",
+          "primary_position": "DEF",
+          "selected_position": {
+            "coverage_type": "week",
+            "is_flex": 0,
+            "position": "DEF",
+            "week": "16"
+          },
+          "uniform_number": false
+        }
+      }
+    ]
+  },
+  "roster_adds": {
+    "coverage_type": "week",
+    "coverage_value": "17",
+    "value": "0"
+  },
+  "team_id": "1",
+  "team_key": "399.l.745501.t.1",
+  "team_logos": {
+    "team_logo": {
+      "size": "large",
+      "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/56510094393_601fe1.jpg"
+    }
+  },
+  "team_points": {
+    "coverage_type": "season",
+    "season": "2020",
+    "total": "1442.86"
+  },
+  "team_standings": {
+    "outcome_totals": {
+      "losses": 4,
+      "percentage": 0.692,
+      "ties": 0,
+      "wins": 9
+    },
+    "playoff_seed": "3",
+    "points_against": 1388.02,
+    "points_for": 1442.86,
+    "rank": 4,
+    "streak": {
+      "type": "win",
+      "value": "1"
+    }
+  },
+  "url": "https://football.fantasysports.yahoo.com/2020/f1/745501/1",
+  "waiver_priority": 11
+}
