@@ -50,142 +50,98 @@ def get_team_index():
 team_index = get_team_index()
 
 
-
-get_team_index()
 def percent_change(start_point, end_point):
     """Calculate percent change given a starting point and an ending point"""
     return (float(end_point) - start_point) / abs(start_point) * 100.00
 
 
-def grab_points_scored(team_id, week):
-    """Generate points scored by a team by id for a given week"""
     
-    with open(f"{season}/{team_id}_{team_index[team_id]}/week_{week}.json") as file:
-        data = json.load(file)
-        return float(data['team_points']['total'])
-    
-def grab_points_proj(team_id, week):
-    """Generate projected points for a team by id for a given week"""
-    
-    with open(f"{season}/{team_id}_{team_index[team_id]}/week_{week}.json") as file:
-        data = json.load(file)
-        return float(data['team_projected_points']['total'])
-
-###!!!!Following 2 things is for the plotting of the graphs which I will change, keeping it for now
-for team in team_index: #Make dictonaries of team_id:points score and team_id:poitns_proj
-    
-    team_points = [grab_points_scored(team,i) for i in range(1,17)]
-    all_teams_points[team] = team_points
-    
-    team_proj = [grab_points_proj(team,i) for i in range(1,17)]
-    all_teams_proj[team] = team_proj
-
-# print(all_teams_points) #DEBUG
-# print(all_teams_proj) #DEBUG
-
-
-#Generate dictonaries of avg points and avg projections for whole season
-team_avg_points = {i: round(mean(all_teams_points[i]),2) for i in range(1,13)}
-team_avg_proj = {i: round(mean(all_teams_proj[i]),2) for i in range(1,13)}
-
-# print(team_avg_points) #DEBUG
-# print(team_avg_proj) #DEBUG
-
-#!!!!!--!!! Below is being replaced by other luck stat, but this will stay for now if I find another use for it (team performance?)
-#Defining luck as percent change over projections, and to make dict comp shorter for lucky list
-def luck(key):
-    
-    luck = percent_change(team_avg_proj[key], team_avg_points[key])
-    return luck
-
-
-#used for the plotting... will change/remove
-team_luck_precent = {i:round(luck(i),2) for i in range(1,13)}
 
 
 
-#For the plotting.... change/remove?
-x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+
+
 
 #Look into changing this!!!! using OOP now as well so need to change the calls
-def plot_luck():
-    color = ["red", "green", "blue", "orange", "purple", "yellow", "cyan", "pink", "black", "brown", "teal", "grey"]
-    team_list = list(team_index.values())
-    team_luck = list(team_luck_precent.values())
-    print(team_luck)
-    x_axis = np.array(team_list)
-    y = team_luck
+# def plot_luck():
+#     color = ["red", "green", "blue", "orange", "purple", "yellow", "cyan", "pink", "black", "brown", "teal", "grey"]
+#     team_list = list(team_index.values())
+#     team_luck = list(team_luck_precent.values())
+#     print(team_luck)
+#     x_axis = np.array(team_list)
+#     y = team_luck
     
-    fig = plt.figure(figsize=(8,8))
-    ax = plt.subplot(111)
-    ax.bar(x_axis, team_luck, color=color)
-    ax.xaxis.set_visible(False)
-    plt.ylim(min(team_luck) - 2, max(team_luck) + 2)
-    plt.title("Points Scored vs Points Projected\n OR \n How much of a lucky bitch you are")
-    #Grab patches to be used in legend
-    handles = [mpatches.Patch(color=color[i], label=team_list[i]) for i in range(len(team_list))]
+#     fig = plt.figure(figsize=(8,8))
+#     ax = plt.subplot(111)
+#     ax.bar(x_axis, team_luck, color=color)
+#     ax.xaxis.set_visible(False)
+#     plt.ylim(min(team_luck) - 2, max(team_luck) + 2)
+#     plt.title("Points Scored vs Points Projected\n OR \n How much of a lucky bitch you are")
+#     #Grab patches to be used in legend
+#     handles = [mpatches.Patch(color=color[i], label=team_list[i]) for i in range(len(team_list))]
     
     
-    ax.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, 0.03),
-            ncol=3, fancybox=True, shadow=True)
+#     ax.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, 0.03),
+#             ncol=3, fancybox=True, shadow=True)
         
     
-    for index,data in enumerate(team_luck):
+#     for index,data in enumerate(team_luck):
         
-        if data > 0:
-            plt.text(x=index, y = data+1, s=f"{data}%", fontdict=dict(fontsize=10), ha="center", va="top")
-        else:
-            plt.text(x=index, y = data-1, s=f"{data}%", fontdict=dict(fontsize=10), ha="center", va="bottom")
-    plt.savefig("/home/jay/python/fantasy_football/graphs/Luck")
-    plt.show()
+#         if data > 0:
+#             plt.text(x=index, y = data+1, s=f"{data}%", fontdict=dict(fontsize=10), ha="center", va="top")
+#         else:
+#             plt.text(x=index, y = data-1, s=f"{data}%", fontdict=dict(fontsize=10), ha="center", va="bottom")
+#     plt.savefig("/home/jay/python/fantasy_football/graphs/Luck")
+#     plt.show()
 
-# plot_luck()   #Generate lucky graph 
+# # plot_luck()   #Generate lucky graph 
     
-#Same thing with this graph plotter... I like the idea but will need to update it
-def plot_points_vs_proj(key):
+# #Same thing with this graph plotter... I like the idea but will need to update it
+# def plot_points_vs_proj(key):
     
-    #Set data points (points/proj vs week)
-    y_points = all_teams_points[key]
-    y_proj = all_teams_proj[key]
-    x_axis = np.array(x)
+#     #Set data points (points/proj vs week)
+#     y_points = all_teams_points[key]
+#     y_proj = all_teams_proj[key]
+#     x_axis = np.array(x)
     
-    #Set up axis on figure
-    fig, ax = plt.subplots(figsize=(8,8))
-    ax.set_xlim(1, len(y_points))
-    plt.ylabel("Points")
-    plt.xlabel("Week")
+#     #Set up axis on figure
+#     fig, ax = plt.subplots(figsize=(8,8))
+#     ax.set_xlim(1, len(y_points))
+#     plt.ylabel("Points")
+#     plt.xlabel("Week")
     
-    ax.set_title(f"""{team_index[key]}\n {'-' * 100}\nSeason: {season} / Highest Scored: {max(all_teams_points[key])}"""
-                  f""" / Lowest Scored: {min(all_teams_points[key])} / Average: {team_avg_points[key]}""")
-    
-    
-    
-    plt.margins(x=10) #not sure what this is doing but scared to change
+#     ax.set_title(f"""{team_index[key]}\n {'-' * 100}\nSeason: {season} / Highest Scored: {max(all_teams_points[key])}"""
+#                   f""" / Lowest Scored: {min(all_teams_points[key])} / Average: {team_avg_points[key]}""")
     
     
-    #plot lines
-    ax.plot(x_axis, y_points, linewidth=3, label="Points Scored", color='blue', marker='o')
-    ax.plot(x_axis, y_proj, linewidth=3, label="Points Projected", color='red', marker='o')
     
-    # #Plot bars
-    # ax.bar(x_axis + 0.20, y_points, width=0.5, align="center", label="Points scored")
-    # ax.bar(x_axis - 0.20, y_proj, width=0.5, align="center", label="Points Projected")
+#     plt.margins(x=10) #not sure what this is doing but scared to change
     
-    #Fancy code to make sure x axis is correct
-    ax.set_xticks(np.arange(len(x) + 1))
+    
+#     #plot lines
+#     ax.plot(x_axis, y_points, linewidth=3, label="Points Scored", color='blue', marker='o')
+#     ax.plot(x_axis, y_proj, linewidth=3, label="Points Projected", color='red', marker='o')
+    
+#     # #Plot bars
+#     # ax.bar(x_axis + 0.20, y_points, width=0.5, align="center", label="Points scored")
+#     # ax.bar(x_axis - 0.20, y_proj, width=0.5, align="center", label="Points Projected")
+    
+#     #Fancy code to make sure x axis is correct
+#     ax.set_xticks(np.arange(len(x) + 1))
     
 
     
-    plt.legend(loc="best")
-    plt.savefig(f"/home/jay/python/fantasy_football/graphs/{team_key[key]} points by week")
+#     plt.legend(loc="best")
+#     plt.savefig(f"/home/jay/python/fantasy_football/graphs/{team_key[key]} points by week")
     
-    plt.show() #Debug to show
+#     plt.show() #Debug to show
     
-#Generate graphs for points vs projected for each team
-# for i in range(1,13):
-#     plot_points_vs_proj(i)
+# #Generate graphs for points vs projected for each team
+# # for i in range(1,13):
+# #     plot_points_vs_proj(i)
 
 #this is useful for the luck function, just a simple dictonary of team_id : score for a given week works outside of team Class
+#NOTE ---> Can not figure out way to get points scored in Team class and not break a lot of things.... will revisit this
 def grab_weeks_scores(week):
     """Given a week grab all scores by all teams"""
     for i in range(1, len(team_index) + 1):
@@ -194,12 +150,15 @@ def grab_weeks_scores(week):
     return all_teams_points_week
 
 
-
-#Grab a teams team_key (ex 399.75019.t1  <--- the number after t will change and reflects team_id)
-def get_team_key(team_id):
-    with open(f"2020/{team_id}_{team_index[team_id]}/team_metadata.json") as file:
+def grab_points_scored(team_id, week):
+    """Generate points scored by a team by id for a given week"""
+    
+    with open(f"{season}/{team_id}_{team_index[team_id]}/week_{week}.json") as file:
         data = json.load(file)
-        return data['team_key']
+        return float(data['team_points']['total'])
+
+
+
 
 #Pretty sure not needed cause the team_key is now stored in the team object
 #Grab all teams team_key and put them in dictonary according to team_index
@@ -221,25 +180,6 @@ def get_team_key(team_id):
     
     
 #Write function to grab a teams roster with player_name and player_key
-def grab_team_roster(team_id, week):
-    file = open(f"2020/{team_id}_{team_index[team_id]}/team_roster_with_stats_week_{week}.json")
-    data = json.load(file)
-    roster = {}
-    for player in data:
-        
-        player_name = player['player']['name']['full']
-        
-        position = player['player']['selected_position']['position']
-       
-        player_points = player['player']['player_points']['total']
-        
-        player_id = player['player']['player_id']
-        
-        roster[player_name] = {"position" : position, "points" : player_points, "id" : player_id}
-        
-    
-    return roster
-
 
 
 
@@ -258,23 +198,42 @@ class Team:
         
         self.team_id = team_id
         self.team_name = team_index[team_id]
-        self.team_key = get_team_key(team_id)
+        self.team_key = self.get_team_key()
         self.streak = self.grab_team_streak()
         self.points_scored = grab_points_scored(team_id, current_week)
         self.optimal_team = self.team_score_by_position_optimal(current_week)
         self.win = self.did_team_win(current_week)
         self.coach_metric = self.grab_coach_metric(current_week)
         self.luck = self.team_luck(current_week)
-        self.proj_points = grab_points_proj(team_id, current_week)
-       
-        self.roster = grab_team_roster(team_id, current_week)
-        
+        self.proj_points = self.grab_points_proj(current_week)
+        self.roster = self.grab_team_roster(current_week)
         self.rank = self.grab_team_rank()
         self.vs_team_id = self.grab_vs_team(current_week)  
         self.manager = self.grab_manager_name()
 
     
     
+
+    def grab_team_roster(self, week):
+        with open(f"{season}/{self.team_id}_{team_index[self.team_id]}/team_roster_with_stats_week_{week}.json") as file:
+            data = json.load(file)
+            roster = {}
+            for player in data:
+                
+                player_name = player['player']['name']['full']
+                
+                position = player['player']['selected_position']['position']
+            
+                player_points = player['player']['player_points']['total']
+                
+                player_id = player['player']['player_id']
+                
+                roster[player_name] = {"position" : position, "points" : player_points, "id" : player_id}
+                
+            
+        return roster
+
+
 
     def grab_team_streak(self):
         with open(f"2020/{self.team_id}_{team_index[self.team_id]}/team_standings.json") as file:
@@ -337,6 +296,13 @@ class Team:
     
     
     
+    def get_team_key(self):
+        """Grab a teams team_key (ex 399.75019.t1  <--- the number after t will change and reflects team_id)"""
+        with open(f"{season}/{self.team_id}_{team_index[self.team_id]}/team_metadata.json") as file:
+            data = json.load(file)
+            return data['team_key']
+    
+    
     def grab_coach_metric(self, week):
         """Given team_id and week will calculate coach efficency metric (points score / optimal points)
     Closer to 1 the better"""
@@ -347,6 +313,14 @@ class Team:
         return round((points_scored/optimal_points), 2)
     
 
+    def grab_points_proj(self, week):
+        """Generate projected points for a team by id for a given week"""
+    
+        with open(f"{season}/{self.team_id}_{team_index[self.team_id]}/week_{week}.json") as file:
+            data = json.load(file)
+            return float(data['team_projected_points']['total'])
+
+    
     def team_score_by_position_optimal(self,week):
         """Given a team_id and week will return the optimal team in format as follows:
     points_scored_by_position = {"QB" : 0,
@@ -469,7 +443,7 @@ class Team:
             #Create a list of winners for week and see if team is in that list... it works!
             for matchup in data['matchups']:
                 winners.append(matchup['matchup']['winner_team_key'])
-            if get_team_key(self.team_id) in winners:
+            if self.team_key in winners:
                 return True
             else:
                 return False
@@ -535,7 +509,8 @@ for i in range(1,13):
             f"Proj Points: {team_list[i].proj_points} | "
             f"Power Rank: {team_list[i].power_rank} | "
             f"Streak: {team_list[i].streak} | "
-            f"Opponent: {team_index[int(team_list[i].vs_team_id)]} "
+            f"Opponent: {team_index[int(team_list[i].vs_team_id)]} | "
+            f"Roster: {team_list[i].roster} | "
             f"Optimal Team: {team_list[i].optimal_team}"
             "\n-----------------------------------------------------------------------------------------------------")
             

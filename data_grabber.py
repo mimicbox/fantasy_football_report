@@ -43,7 +43,7 @@ data_dir = "."
 league_id = "745501"
 game_key = "399"
 season = "2020"
-auth_dir = "/home/jay/python/fantasy_football/yahoo_app_credentials"
+auth_dir = "/home/jay/python/fantasy_football_report/yahoo_app_credentials"
 
 yahoo_query = YahooFantasySportsQuery(auth_dir=auth_dir,
                                       league_id=league_id,
